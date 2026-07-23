@@ -1,0 +1,26 @@
+{
+  "name": "coinbucha",
+  "title": "CoinBucha — Bitcoin signal intelligence",
+  "description": "Signal-first Bitcoin intelligence over MCP: leading, non-price signals (sovereign adoption, hiring velocity, network hashrate) with strength, direction, rationale, and primary sources. Information, not financial advice.",
+  "version": "0.1.0",
+  "transport": "streamable-http",
+  "endpoint": "https://coinbucha.com/api/mcp",
+  "homepage": "https://coinbucha.com",
+  "documentation": "https://coinbucha.com/methodology",
+  "tools": [
+    { "name": "scan_signals", "description": "Ranked composite feed of Bitcoin signals." },
+    { "name": "get_hiring_signal", "description": "Bitcoin/crypto-infra hiring velocity from live ATS boards." },
+    { "name": "get_sovereign_reserves", "description": "Sovereign Bitcoin holdings, ranked." },
+    { "name": "get_treasury_holdings", "description": "Corporate Bitcoin treasury holdings by public companies." },
+    { "name": "get_etf_flows", "description": "Spot Bitcoin ETF net flows (when configured)." },
+    { "name": "get_network_signal", "description": "Bitcoin network hashrate level and trend." },
+    { "name": "get_daily_brew", "description": "Today's machine-readable signal digest." }
+  ],
+  "resources": [
+    { "uri": "coinbucha://methodology", "description": "How every signal is computed." }
+  ],
+  "prompts": [
+    { "name": "morning_bitcoin_brief", "description": "Render the CoinBucha Daily Brew from live signals." }
+  ],
+  "categories": ["finance", "crypto", "bitcoin", "data", "market-intelligence"]
+}
