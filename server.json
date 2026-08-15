@@ -1,9 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.coinbucha/bitcoin-signals",
-  "description": "Signal-first Bitcoin intelligence over MCP: leading, non-price signals (sovereign adoption, hiring velocity, network hashrate) with strength, direction, rationale, and primary sources. Information, not financial advice.",
-  "status": "active",
-  "version": "0.1.0",
+  "description": "Leading non-price Bitcoin signals over MCP: sovereign, hiring, hashrate. Not financial advice.",
+  "version": "0.1.1",
   "websiteUrl": "https://coinbucha.com",
   "repository": {
     "url": "https://github.com/jukkablomberg/coinbucha-mcp",
