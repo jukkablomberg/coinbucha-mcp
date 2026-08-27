@@ -5,3 +5,10 @@ __pycache__/
 .env.local
 key.pem
 .DS_Store
+# --- lock-park (DE-LOCKPARK-CONVENTION) ---
+# A lock a builder could not unlink is parked, never committed. See _meta/conventions.md.
+_git_locks_to_delete/
+_to_delete/
+.locks-aside/
+stale-locks-*/
+parked-locks/
