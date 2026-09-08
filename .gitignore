@@ -12,3 +12,26 @@ _to_delete/
 .locks-aside/
 stale-locks-*/
 parked-locks/
+
+# --- never-source (added 2026-09-08 — Jukka: crap or private files must never reach GitHub/Vercel) ---
+# The Distribution Engineer sweeps `git add -A` every 15 min. A working file left in the tree by any
+# session becomes a commit, and on a static site a live URL (saunahash's index.html.bak was served with
+# HTTP 200 for five days). These classes are never source, whoever leaves them here. Canonical copy:
+# _meta/project-template/repo.gitignore — keep the two in step.
+*.bak
+*.bak.*
+*.bak-*
+*.orig
+*~
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+_iotest*
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
